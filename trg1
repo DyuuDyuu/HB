@@ -1,8 +1,32 @@
-body {
-    margin: 0;
-    background-image: url("images/background.jpg");
-    background-size: cover;      /* Phủ kín màn hình */
-    background-position: center; /* Canh giữa */
-    background-repeat: no-repeat;
-    height: 100vh;
-}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang của tôi</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .game {
+            width: 1024px;
+            height: 768px;
+            background: url("bg.png") no-repeat center center;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="game"></div>
+</body>
+</html>
