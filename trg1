@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    background-image: url("images/background.jpg");
+    background-size: cover;      /* Phủ kín màn hình */
+    background-position: center; /* Canh giữa */
+    background-repeat: no-repeat;
+    height: 100vh;
+}
