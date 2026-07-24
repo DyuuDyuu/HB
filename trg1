@@ -20,7 +20,7 @@
         .game {
             width: 1024px;
             height: 768px;
-            background: url("bg.png") no-repeat center center;
+            background: url("bg1.png") no-repeat center center;
             background-size: cover;
         }
     </style>
